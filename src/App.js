@@ -7,13 +7,10 @@ import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
-import Counter from "./components/counter/Counter";
-import { useSelector } from "react-redux";
+
 
 function App() {
-  const count = useSelector((state) => {
-    return state.counter.count;
-  });
+
   useEffect(() => {
     Aos.init();
   }, []);
