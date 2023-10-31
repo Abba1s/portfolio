@@ -38,7 +38,8 @@ const Hero = () => {
                 data-aos-duration="1500"
                 className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
               >
-                I'm Muhammad Abbas <br />
+                I'm Muhammad <span className="text-primaryColor">Abbas</span>{" "}
+                <br />
                 Full Stack Developer
               </h1>
 
@@ -48,18 +49,17 @@ const Hero = () => {
                 data-aos-delay="200"
                 className="flex items-center gap-6 mt-7"
               >
-                  <a
-                  className="text-smallTextColor font-[600] text-[16px] border-b-2 border-solid border-smallTextColor hover:border-b-primaryColor"
+                <a
+                  className="text-primaryColor font-[600] text-[16px] border-b-2 border-solid hover:text-smallTextColor border-smallTextColor hover:border-b-primaryColor"
                   href="#portfolio"
                 >
                   See Portfolio
                 </a>
                 <a href="#contact">
-                  <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]">
+                  <button className="bg-smallTextColor text-white font-[500] flex items-center gap-2 hover:bg-primaryColor ease-in duration-300 py-2 px-4 rounded-[8px]">
                     <i class="ri-mail-line"> Hire Me</i>
                   </button>
                 </a>
-              
               </div>
               <p
                 data-aos="fade-left"
@@ -69,11 +69,13 @@ const Hero = () => {
                 <span>
                   <i class="ri-apps-line"></i>
                 </span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Necessitatibus officiis dicta vero ab voluptate consectetur
-                illum maiores dolorem. Rerum, ad reprehenderit. Dolorum repellat
-                eum, autem dolor iure voluptas commodi dicta quos voluptate non
-                distinctio!
+                As a skilled MERN stack developer, I bring expertise in building
+                dynamic and responsive web applications using MongoDB,
+                Express.js, React / Next, and Node.js. Eager to contribute my
+                technical skills, creativity, and dedication to developing
+                cutting edge web applications. I thrive in dynamic environments
+                and continuously strive to stay updated with the latest industry
+                trends and best practices
               </p>
 
               {/*________________ Follow Me_____________ */}
