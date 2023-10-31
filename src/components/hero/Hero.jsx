@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import heroImg from "../../assets/heroo.png";
-import heroColor from "../../assets/heroImg.png";
+import Resume from "../../assets/AbbasResume.pdf";
 import Countup from "react-countup";
 
 const Hero = () => {
@@ -60,6 +60,15 @@ const Hero = () => {
                     <i class="ri-mail-line"> Hire Me</i>
                   </button>
                 </a>
+                <div className="flex md:hidden items-center gap-4">
+              <a
+                href={Resume}
+                download
+                className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 sm:px-4 px-2 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white text-[14px] hover:font-[500] ease-in duration-300"
+              >
+                <i class="ri-file-download-line"></i> Resume
+              </a>
+            </div>
               </div>
               <p
                 data-aos="fade-left"
@@ -110,8 +119,9 @@ const Hero = () => {
                 </span>
                 <span className="hover:scale-150">
                   <a
+
                     className="text-smallTextColor text-[15px] font-[600]"
-                    href="#li"
+                   href="https://www.linkedin.com/in/abbas-khan717" target="_tab"
                   >
                     <i class="ri-linkedin-line"></i>
                   </a>

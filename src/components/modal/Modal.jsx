@@ -5,7 +5,7 @@ const Modal = ({ currentId, setShowModal }) => {
   const portfolio = data.find((item) => item.id === currentId);
   return (
     <>
-      <div className="w-full h-full bg-headingColor bg-opacity-40 fixed top-0 left-0 z-10">
+      <div className="w-full h-full bg-headingColor bg-opacity-40 fixed top-0 left-0 z-50 ">
         <div className="w-11/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
           <div>
             <figure>

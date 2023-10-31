@@ -20,7 +20,9 @@ const Footer = () => {
 
             <div className="w-full sm:w1/2">
               <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-              well-versed in modern design trends and can implement clean, aesthetically pleasing layouts that align with your brand or vision.
+                well-versed in modern design trends and can implement clean,
+                aesthetically pleasing layouts that align with your brand or
+                vision.
               </p>
 
               <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
@@ -53,7 +55,8 @@ const Footer = () => {
                 </span>
                 <span className="w-[35px] h-[35px] p-1 rounded-[50px] cursor-pointer text-center bg-[#2b2d33] hover:bg-primaryColor">
                   <a
-                    href="#github"
+                    href="https://www.linkedin.com/in/abbas-khan717"
+                    target="_tab"
                     className="text-gray-300 font-[500] text-[18px]"
                   >
                     <i class="ri-linkedin-line"></i>
@@ -66,22 +69,34 @@ const Footer = () => {
           <div>
             <ul className="flex flex-col md:flex-row items-center justify-center pt-10 gap-10 ">
               <li>
-                <a className="text-gray-400 font-[600] hover:text-white" href="#about">
+                <a
+                  className="text-gray-400 font-[600] hover:text-white"
+                  href="#about"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a className="text-gray-400 font-[600] hover:text-white" href="#services">
+                <a
+                  className="text-gray-400 font-[600] hover:text-white"
+                  href="#services"
+                >
                   Services
                 </a>
               </li>
               <li>
-                <a className="text-gray-400 font-[600] hover:text-white" href="#portfolio">
+                <a
+                  className="text-gray-400 font-[600] hover:text-white"
+                  href="#portfolio"
+                >
                   Portfolio
                 </a>
               </li>
               <li>
-                <a className="text-gray-400 font-[600] hover:text-white" href="#contact">
+                <a
+                  className="text-gray-400 font-[600] hover:text-white"
+                  href="#contact"
+                >
                   Contact
                 </a>
               </li>
@@ -111,7 +126,10 @@ const Footer = () => {
               </div>
 
               <div>
-                <p className="text-gray-400 text-[14px] "> Copyright 2023 - All Rights Reserved</p>
+                <p className="text-gray-400 text-[14px] ">
+                  {" "}
+                  Copyright 2023 - All Rights Reserved
+                </p>
               </div>
             </div>
           </div>

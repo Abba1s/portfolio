@@ -29,7 +29,7 @@ return window.removeEventListener('scroll', scrollHandler)
   return (
     <header
       ref={headerRef}
-      className="w-full h-[80px] leading-[80px] flex items-center"
+      className="w-full h-[90px] leading-[80px] flex items-center"
     >
       <div className="container">
         <div className="flex items-center justify-between">
@@ -83,7 +83,7 @@ return window.removeEventListener('scroll', scrollHandler)
           {/* _________ */}
 
           <div className="flex flex-col md:flex-row gap-2">
-            <div className="flex items-center gap-4 order-2 md:order-1">
+            <div className="hidden md:flex items-center gap-4">
               <a
                 href={Resume}
                 download
@@ -92,7 +92,7 @@ return window.removeEventListener('scroll', scrollHandler)
                 <i class="ri-file-download-line"></i> Resume
               </a>
             </div>
-            <div className="flex items-center gap-4 order-1 md:order-2">
+            <div className="flex items-center gap-4">
               <a href="https://www.linkedin.com/in/abbas-khan717" target="_tab" className="flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 sm:px-4 px-2 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white text-[14px] hover:font-[500] ease-in duration-300">
                 <i className="ri-send-plane-line"></i>Let's Connect
               </a>
