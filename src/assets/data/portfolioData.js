@@ -11,17 +11,17 @@ const portfolios = [
     id: "01",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "MediGuard dApp",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    "In MediGuard dApp, we used Blockchain technology & Quick Response (QR) code to provide robust technique to try and stop the practice of counterfeiting the products. Fake products can be detected using a Quick Response scanner, where a QR code attached to the product is linked to the Blockchain network",
+    technologies: ["React", "Tailwind css", "Solidity", "Web3.js"],
     siteUrl: "#",
   },
   {
     id: "02",
     imgUrl: portfolioImg04,
     category: "Ux",
-    title: "Video Conference Website",
+    title: "Hotel Renting Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -31,7 +31,7 @@ const portfolios = [
     id: "03",
     imgUrl: portfolioImg02,
     category: "Ux",
-    title: "Multimedia Sharing Website",
+    title: "Chat App",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -40,8 +40,8 @@ const portfolios = [
   {
     id: "04",
     imgUrl: portfolioImg05,
-    category: "Web Design",
-    title: "Landing Page",
+    category: "",
+    title: "E-commerce Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -50,8 +50,8 @@ const portfolios = [
   {
     id: "05",
     imgUrl: portfolioImg03,
-    category: "Web Design",
-    title: "Landing Page",
+    category: "Ux",
+    title: "Doctor Appointment",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
@@ -62,7 +62,7 @@ const portfolios = [
     id: "06",
     imgUrl: portfolioImg06,
     category: "Ux",
-    title: "Online Therapy Website",
+    title: "Coffee Locator",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
