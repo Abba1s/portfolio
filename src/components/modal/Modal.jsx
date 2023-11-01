@@ -40,9 +40,14 @@ const Modal = ({ currentId, setShowModal }) => {
               })}
             </div>
           </div>
-          <button onClick={()=>{
-            setShowModal(false)
-          }} className="absolute top-[1rem] right-[1rem] bg-white w-[1.8rem] h-[1.8rem] cursor-pointer">x</button>
+          <button
+            onClick={() => {
+              setShowModal(false);
+            }}
+            className="absolute top-[1rem] right-[0.5rem] w-[1.8rem] h-[1.8rem] cursor-pointer bg-red-500 rounded-[8px] text-white font-[700] text-[18px]"
+          >
+            x
+          </button>
         </div>
       </div>
     </>

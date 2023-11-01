@@ -1,10 +1,10 @@
 import portfolioImg01 from "../images/med.png"
-import portfolioImg02 from "../images/portfolio-02.jpg";
-import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
-import portfolioImg05 from "../images/portfolio-05.jpg";
-import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
+import portfolioImg02 from "../images/s4.png";
+import portfolioImg03 from "../images/s3.png";
+import portfolioImg04 from "../images/s3.png";
+import portfolioImg05 from "../images/s2.png";
+import portfolioImg06 from "../images/s5.png";
+import portfolioImg07 from "../images/s7.png";
 
 const portfolios = [
   {
@@ -23,7 +23,7 @@ const portfolios = [
     category: "Ux",
     title: "Hotel Renting Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "Allows users to search for hotels based on various criteria like location, check-in and check-out dates, number of guests, and specific amenities.Provides detailed information about available hotels, including photos, room types, amenities, and pricing.Enables users to select their desired hotel and room, input their personal information, and make a reservation",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
@@ -33,121 +33,103 @@ const portfolios = [
     category: "Ux",
     title: "Chat App",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      " Allows users to create accounts, log in, and authenticate their identity using JWT, Displays a list of contacts or friends that a user can interact with. Enables users to send and receive text-based messages in real-time. Provides a library of emojis, stickers, and GIFs to enhance communication.",
+    technologies: ["React", "Tailwind css", "Node.js", "MongoDB", "Socket.io"],
     siteUrl: "#",
   },
   {
     id: "04",
-    imgUrl: portfolioImg05,
+    imgUrl:portfolioImg06 ,
     category: "",
     title: "E-commerce Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "Displays a catalog of products with details like name, description, price, and images. Allows users to search for specific products and filter results based on criteria like category, price range, brand, etc. Provides detailed information about individual products, including images, descriptions, specifications, availability status, and customer reviews. Allows users to add products they wish to purchase, review their selections, and proceed to checkout. Supports stripe payment method.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
     id: "05",
-    imgUrl: portfolioImg03,
+    imgUrl: portfolioImg05,
     category: "Ux",
     title: "Doctor Appointment",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "Allows users to search for doctors, specialists, and healthcare facilities based on criteria like location, specialty, availability. Provides detailed information about healthcare providers, including their name, specialty, education, experience, and patient reviews. Allows users to create accounts, enter personal information",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
 
   {
     id: "06",
-    imgUrl: portfolioImg06,
+    imgUrl: portfolioImg07,
     category: "Ux",
     title: "Coffee Locator",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "Utilizes the user's device to determine their current location, enabling the website to provide coffee shop suggestions in proximity.Allows users to manually enter a location or search.Presents a list of coffee shop options with details like name, address, distance, ratings, and a brief description.Allows users to leave reviews and rate coffee shops based on their experiences. Displays images of the coffee shop's interior, exterior, menu items, and special features.",
+    technologies: ["Next", "Tailwind css", "Airtable"],
     siteUrl: "#",
   },
   {
-    id: "07",
-    imgUrl: portfolioImg07,
-    category: "Web Design",
-    title: "Appointment Booking Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "08",
+    id: "01",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "MediGuard dApp",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    "In MediGuard dApp, we used Blockchain technology & Quick Response (QR) code to provide robust technique to try and stop the practice of counterfeiting the products. Fake products can be detected using a Quick Response scanner, where a QR code attached to the product is linked to the Blockchain network",
+    technologies: ["React", "Tailwind css", "Solidity", "Web3.js"],
+    siteUrl: "#",
+  },
+  {
+    id: "02",
+    imgUrl: portfolioImg04,
+    category: "Ux",
+    title: "Hotel Renting Website",
+    description:
+      "Allows users to search for hotels based on various criteria like location, check-in and check-out dates, number of guests, and specific amenities.Provides detailed information about available hotels, including photos, room types, amenities, and pricing.Enables users to select their desired hotel and room, input their personal information, and make a reservation",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
-    id: "09",
+    id: "03",
     imgUrl: portfolioImg02,
     category: "Ux",
-    title: "Video Conference Website",
+    title: "Chat App",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      " Allows users to create accounts, log in, and authenticate their identity using JWT, Displays a list of contacts or friends that a user can interact with. Enables users to send and receive text-based messages in real-time. Provides a library of emojis, stickers, and GIFs to enhance communication.",
+    technologies: ["React", "Tailwind css", "Node.js", "MongoDB", "Socket.io"],
+    siteUrl: "#",
+  },
+  {
+    id: "04",
+    imgUrl:portfolioImg06 ,
+    category: "",
+    title: "E-commerce Website",
+    description:
+      "Displays a catalog of products with details like name, description, price, and images. Allows users to search for specific products and filter results based on criteria like category, price range, brand, etc. Provides detailed information about individual products, including images, descriptions, specifications, availability status, and customer reviews. Allows users to add products they wish to purchase, review their selections, and proceed to checkout. Supports stripe payment method.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
-    id: "10",
-    imgUrl: portfolioImg03,
-    category: "Ux",
-    title: "File Sharing Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "11",
-    imgUrl: portfolioImg04,
-    category: "Web Design",
-    title: "Landing Page",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "12",
+    id: "05",
     imgUrl: portfolioImg05,
-    category: "Web Design",
-    title: "Landing Page",
+    category: "Ux",
+    title: "Doctor Appointment",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "Allows users to search for doctors, specialists, and healthcare facilities based on criteria like location, specialty, availability. Provides detailed information about healthcare providers, including their name, specialty, education, experience, and patient reviews. Allows users to create accounts, enter personal information",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
+
   {
-    id: "13",
-    imgUrl: portfolioImg06,
-    category: "Web Design",
-    title: "Online Therapy Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "14",
+    id: "06",
     imgUrl: portfolioImg07,
-    category: "ux",
-    title: "Appointment Booking Website",
+    category: "Ux",
+    title: "Coffee Locator",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "Utilizes the user's device to determine their current location, enabling the website to provide coffee shop suggestions in proximity.Allows users to manually enter a location or search.Presents a list of coffee shop options with details like name, address, distance, ratings, and a brief description.Allows users to leave reviews and rate coffee shops based on their experiences. Displays images of the coffee shop's interior, exterior, menu items, and special features.",
+    technologies: ["Next", "Tailwind css", "Airtable"],
     siteUrl: "#",
   },
+  
 ];
 
 export default portfolios;
