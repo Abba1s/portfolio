@@ -1,5 +1,4 @@
 import React from "react";
-import hero2 from "../../assets/hero2.png";
 import fd from "../../assets/fdd.jpeg";
 
 const Services = () => {
@@ -28,6 +27,10 @@ const Services = () => {
                 <h3 className="font-[700] mr-2">Backend Frameworks:</h3>
                 <span className="">Express js, Nest js</span>
               </div>
+              <div className="flex justify-center items-center">
+                <h3 className="font-[700] mr-2">Mobile App:</h3>
+                <span className="">React Native</span>
+              </div>
 
               <div className="flex justify-center items-center">
                 <h3 className="font-[700] mr-2">WEB 3:</h3>
@@ -35,7 +38,7 @@ const Services = () => {
               </div>
               <div className="flex justify-center items-center">
                 <h3 className="font-[700] mr-2">Databases:</h3>
-                <span className="">MySQL, MongoDb</span>
+                <span className="">MySQL, MongoDb, Firebase</span>
               </div>
             </div>
           </div>
