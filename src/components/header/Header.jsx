@@ -54,10 +54,9 @@ return window.removeEventListener('scroll', scrollHandler)
           </div>
           {/* Links */}
           <div className="menu" ref={menuRef} onClick={menuToggle}>
+          
             <ul className="flex items-center gap-10">
-              <span className="md:hidden absolute top-5 right-1/2 font-[600] text-[1.5rem]">
-                X
-              </span>
+              
               <li>
                 <a className="text-smallTextColor font-[600]" href="#about">
                   About
