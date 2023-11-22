@@ -131,26 +131,13 @@ const Hero = () => {
 
             {/* _________Right Side_____ */}
 
-            {/* Hero Img */}
-
-            {/* <div className="basis-1/3 mt-10 sm:mt-0">
-              <figure className="flex items-center justify-center">
-                <img
-                  className="rounded-[40%]"
-                  src={heroImg}
-                  alt="Abbas's Photo"
-                  data-aos="zoom-in"
-                  data-aos-duration="1800"
-                />
-              </figure>
-            </div> */}
             {/* Hero content */}
 
             <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
               {/* ____________ */}
               <div className="mb-10">
                 <h2 className="headingColor font-[700] text-[32px]">
-                  <Countup start={0} end={2} duration={4} suffix="+" />
+                  <Countup start={0} end={1} duration={4} suffix="+" />
                 </h2>
 
                 <h4 className="headingColor font-[600] text-[18px]">
